@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #051426;
+    padding: 2rem;
+    display: flex;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding-right: 5rem;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: #29B2FF;
+}
+
+.abdi {
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+    padding-right: 40rem;
+}
