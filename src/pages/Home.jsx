@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className='bg-[#051426] h-screen flex justify-around'>
       <div>
-        <h1 className='text-white font-black text-4xl mt-36 mb-2'>Hi, I’m Abdi Dereje</h1>
+        <h1 className='text-white font-black text-4xl mt-56 mb-2'>Hi, I’m Abdi Dereje</h1>
         <h1 className='text-[#29B2FF] font-extrabold text-2xl text-left mb-6'>Backend Developer</h1>
         <p className='text-white mb-8'>I am Sofware Enginer and Backend Developer</p>
         <div className='flex justify-between w-60 ml-0'>
@@ -14,9 +14,8 @@ function Home() {
         </div>
         <SocialMediaIcons />
       </div>
-      <div>
-        <h1>Home Page</h1>
-        <p>Welcome to my portfolio!</p>
+      <div className='flex items-center justify-center'>
+        <img src="/abdi.png" alt="Profile" className="rounded-full shadow-lg w-[300px] h-[302px]"/>
       </div>
     </div>
   );

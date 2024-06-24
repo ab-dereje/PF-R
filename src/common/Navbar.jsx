@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="bg-[#051426] p-8 flex">
+    <nav className="bg-[#051426] p-8 flex fixed top-0 left-0 w-full">
       <ul className='flex-1 list-none justify-around'>
         <li className='text-white text-left font-black text-xl'>Abdi D.</li>
       </ul>
