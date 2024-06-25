@@ -7,6 +7,10 @@ module.exports = {
         extend: {
             colors: {
                 customBlue: '#29B2FF',
+                lightBlue: '#29B2FF',
+            },
+            width: {
+                customWidth: '2px',
             },
         },
     },

@@ -11,7 +11,7 @@ function Navbar() {
       <ul className='flex list-none justify-around'>
         <li><Link className='text-white pr-20 no-underline hover:text-[#29B2FF]' to="/">Home</Link></li>
         <li><Link className='text-white pr-20 no-underline hover:text-[#29B2FF]' to="/about">About</Link></li>
-        <li><Link className='text-white pr-20 no-underline hover:text-[#29B2FF]' to="/projects">Projects</Link></li>
+        <li><Link className='text-white pr-20 no-underline hover:text-[#29B2FF]' to="/education">Education</Link></li>
         <li><Link className='text-white pr-20 no-underline hover:text-[#29B2FF]' to="/contact">Contact</Link></li>
       </ul>
     </nav>
